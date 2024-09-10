@@ -1,0 +1,116 @@
+[{
+  "displayName": "HP Elite",
+  "releaseDate": "2023-03-15",
+  "cpu": "Intel Core i7-11700",
+  "ram": "16GB DDR4",
+  "ssd": "512GB NVMe SSD",
+  "reviews": [{
+    "userName": "JohnDoe123",
+    "comment": "Impressive performance and speed. Great for gaming!",
+    "rating": 5
+  },
+    {
+      "userName": "TechGeek21",
+      "comment": "The laptop gets hot quickly, and the battery life is disappointing.",
+      "rating": 2
+    },
+    {
+      "userName": "LaptopLover99",
+      "comment": "Sleek design, lightweight, and fantastic display. I'm loving it!",
+      "rating": 4
+    }
+  ]
+},
+  {
+    "displayName": "Lenovo Legion",
+    "releaseDate": "2023-02-10",
+    "cpu": "AMD Ryzen 9 5900HX",
+    "ram": "32GB DDR4",
+    "ssd": "1TB NVMe SSD",
+    "reviews": [{
+      "userName": "GamingGuru77",
+      "comment": "This laptop is a beast! Handles any game I throw at it without breaking a sweat.",
+      "rating": 5
+    },
+      {
+        "userName": "OfficeWorker22",
+        "comment": "Excellent for productivity tasks, but it's a bit heavy for daily commuting.",
+        "rating": 4
+      },
+      {
+        "userName": "DisappointedBuyer",
+        "comment": "Constantly crashes, and customer support is unresponsive. Avoid at all costs!",
+        "rating": 1
+      }
+    ]
+  },
+  {
+    "displayName": "Lenovo ThinkPad",
+    "releaseDate": "2023-04-05",
+    "cpu": "Apple M2",
+    "ram": "8GB LPDDR5",
+    "ssd": "256GB SSD",
+    "reviews": [{
+      "userName": "AppleFanatic2023",
+      "comment": "Sleek and efficient, just what you'd expect from Apple. Works like a charm!",
+      "rating": 5
+    },
+      {
+        "userName": "WindowsUser",
+        "comment": "Not a fan of macOS, but the hardware is top-notch. Fast and responsive.",
+        "rating": 4
+      },
+      {
+        "userName": "TechNovice",
+        "comment": "Overpriced and underpowered. Disappointed with the performance.",
+        "rating": 2
+      }
+    ]
+  },
+  {
+    "displayName": "ASUS ZenBook",
+    "releaseDate": "2023-01-20",
+    "cpu": "Intel Core i5-1135G7",
+    "ram": "12GB DDR4",
+    "ssd": "256GB NVMe SSD",
+    "reviews": [{
+      "userName": "CasualUser123",
+      "comment": "Decent laptop for everyday tasks, but the screen could be brighter.",
+      "rating": 3
+    },
+      {
+        "userName": "TechEnthusiast45",
+        "comment": "Average performance, but the battery life is impressive. Good for students.",
+        "rating": 3
+      },
+      {
+        "userName": "GamerPro",
+        "comment": "Not suitable for gaming, but it's not meant to be. Stick to other options for gaming.",
+        "rating": 2
+      }
+    ]
+  },
+  {
+    "displayName": "Acer Slow",
+    "releaseDate": "2023-03-28",
+    "cpu": "AMD Ryzen 7 5800U",
+    "ram": "16GB DDR4",
+    "ssd": "512GB NVMe SSD",
+    "reviews": [{
+      "userName": "SpeedySurfer",
+      "comment": "Fast and reliable, perfect for my work and streaming needs.",
+      "rating": 5
+    },
+      {
+        "userName": "BudgetBuyer",
+        "comment": "Affordable and capable. It's a good bang for the buck.",
+        "rating": 4
+      },
+      {
+        "userName": "TechNoob",
+        "comment": "Struggles with heavy tasks. Not recommended for professionals.",
+        "rating": 2
+      }
+    ]
+  }
+]
