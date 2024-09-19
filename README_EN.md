@@ -54,7 +54,7 @@ You should use a version of the Java Development Kit (JDK) that supports JavaFX.
 - The goal is to complete the application provided in the repository to obtain an application with the layout shown in Figure 1.
 - The application should allow viewing information about laptop characteristics and their reviews.
 - The application reads the data to be displayed from the file `laptop_reviews.json`.
-![Fig 1](images/fig1.png)
+![Fig 1](images\fig1.png)
 
 1) Clone the repository.
 2) Compile and run the presented code. (Note: Ensure you are using the recommended JDK by accessing the "Menu -> File -> Project Structure" option in the IDE.)
@@ -67,7 +67,7 @@ You should use a version of the Java Development Kit (JDK) that supports JavaFX.
      - The method `ImageView loadThumbnailImage() throws FileNotFoundException` loads the image for the banner.
   
 4) Based on Figure 2, which identifies the main types of *containers* used to build the interface, complete the `initComponents()` method to achieve the presented layout.
-   ![Fig 2](images/fig2.png)
+   ![Fig 2](images\fig2.png)
 5) Implement the interaction for selecting an item in the ListView (`listViewLaptops`) so that each time a laptop is selected in the ListView, its information is updated in the `mainContent` panel.
 
 ## Supplementary Exercises
