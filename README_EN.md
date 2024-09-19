@@ -67,7 +67,7 @@ You should use a version of the Java Development Kit (JDK) that supports JavaFX.
      - The method `ImageView loadThumbnailImage() throws FileNotFoundException` loads the image for the banner.
   
 4) Based on Figure 2, which identifies the main types of *containers* used to build the interface, complete the `initComponents()` method to achieve the presented layout.
-   ![Fig 2](images\fig2.png)
+   ![Fig 2](images/fig2.png)
 5) Implement the interaction for selecting an item in the ListView (`listViewLaptops`) so that each time a laptop is selected in the ListView, its information is updated in the `mainContent` panel.
 
 ## Supplementary Exercises
