@@ -50,7 +50,7 @@ Integrated Development Environment (IDE)
 - Pretende-se completar a aplicação disponibilizada no repositório de forma a obtermos uma aplicação com o layout apresentado na Figura 1.
 - A aplicação deve permitir visualizar a informação relativas às caracteristicas de Laptops e suas revisões.
 - A aplicação lê os dados a apresentar do ficheiro `laptop_reviews.json`.
-![Fig 1] (images\fig1.png)
+![Fig 1](images/fig1.png)
 
 
 1) Clone o repositório
@@ -64,7 +64,7 @@ Integrated Development Environment (IDE)
      - o método `ImageView loadThumbnailImage() throws FileNotFoundExceptio` carrega a imagem para o banner
   
 4) Atendendo à imagem da Figura 2, onde são identificados os principais tipo de  *containers* utilizados para construir a interface, complete o método 'initComponents()' de forma a obter o layout apresentado.
-   ![Fig 2](images\fig2.png). 
+   ![Fig 2](images/fig2.png). 
 5) Implemente a interação de seleção de um item na ListView (listViewLaptops) , de forma a que cada vez que se seleciona na listView um Laptop, a informação sobre este é atualizada no painel `mainContent`.
 
 
