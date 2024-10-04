@@ -44,13 +44,45 @@ public class LaptopsGui extends BorderPane {
     }
 
     public void initializeComponents() throws FileNotFoundException {
-     //TODO
+        ImageView image = loadThumbnailImage();
 
+        listViewLaptops = new ListView<>();
+        listViewLaptops.setCellFactory(param -> new LaptopListCell());
+        listViewLaptops.getItems().addAll(laptops);
+        listViewLaptops.maxWidth(200);
+
+        mainContent = new VBox(5);
+        mainContent.setStyle("-fx-background-color: white; -fx-padding: 10px");
+        Label placeholderLabel = new Label("Select an item from the menu");
+        mainContent.getChildren().add(placeholderLabel);
+
+        listViewLaptops.getSelectionModel().selectedItemProperty().addListener((observable, oldValue, newValue ) -> updateListViewLaptops(placeholderLabel, newValue));
+
+        setTop(image);
+        setLeft(listViewLaptops);
+        setCenter(mainContent);
+    }
+
+    private void updateListViewLaptops(Label placeholderLabel, Laptop newValue) {
+        if(newValue != null) {
+            mainContent.getChildren().clear();
+
+            LaptopInfoPane laptopInfo = new LaptopInfoPane(newValue);
+            Label labelReviews = new Label("Reviews:");
+            labelReviews.setFont(Font.font("Arial", FontWeight.BOLD, 16));
+            labelReviews.setAlignment(Pos.TOP_LEFT);
+             ReviewListBox reviewList = new ReviewListBox(newValue.getReviews());
+
+            mainContent.getChildren().addAll(laptopInfo, new Separator(), labelReviews, reviewList);
+        } else {
+            mainContent.getChildren().clear();
+            mainContent.getChildren().add(placeholderLabel);
+        }
     }
 
     /**
      * Load the data  contain on json file specified on DATA_PATH.
-     * @return list of Lapstop contained on the file
+     * @return list of Laptop contained on the file
      * @throws FileNotFoundException in case of the file not exists
      */
     private List<Laptop> loadData() throws FileNotFoundException {
